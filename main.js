@@ -1,4 +1,4 @@
-// Events array (add your own image paths)
+// Events array 
 const events = [
     {
         title: "Opening Keynote: The Future of AI",

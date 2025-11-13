@@ -15,13 +15,35 @@ const events = [
         image: "images/workshop-js.jpg"
     },
     {
-        title: "Cybersecurity in the Cloud Era",
+        title: "introduction to quantum computing",
         type: "Talk",
         date: "2025-11-20T11:00:00",
-        description: "Explore the evolving landscape of cloud security threats and proactive defense strategies.",
-        image: "images/cybersecurity.jpg"
+        description: "A beginner-friendly overview of quantum mechanics and its potential to revolutionize computing.",
+        image: "images/quantum.jpg"
     },
-    // Add the rest of your events...
+     {
+        title: "Networking Mixer & Welcome Reception",
+        type: "Talk",
+        date: "2025-11-20T11:00:00",
+        description: "Connect with fellow attendees, speakers, and sponsors over drinks and appetizers.",
+        image: "images/cybersecurity1.jpg"
+    },
+     {
+    title: "API Design Best Practices",
+    type: "Talk",
+    date: "2025-11-21T15:00:00",
+    description:
+      "Learn how to design, document, and maintain clean, consistent, and easy-to-use RESTful APIs.",
+    image: "images/cybersecurity2.jpg",
+  },
+   {
+    title: "Closing Ceremony & Awards",
+    type: "Social",
+    date: "2025-11-22T17:30:00",
+    description:
+      "Join us as we celebrate the best of the conference and announce the hackathon winners.",
+    image: "images/cybersecurity2.jpg",
+  },
 ];
 
 // Select container

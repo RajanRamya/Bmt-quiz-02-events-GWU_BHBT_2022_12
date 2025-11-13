@@ -69,6 +69,13 @@ function displayEvents(eventList) {
 
         container.appendChild(card);
     });
+    // Apply small animation
+const newlyAdded = container.lastElementChild;
+newlyAdded.classList.add("animate-card");
+
+setTimeout(() => {
+  newlyAdded.classList.add("show");
+}, 50);
 }
 
 // Initial display

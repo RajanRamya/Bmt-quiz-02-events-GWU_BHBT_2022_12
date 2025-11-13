@@ -8,8 +8,8 @@
 /* Body and Fonts */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #030925;
+    color: #050505;
     line-height: 1.6;
     padding: 20px;
 }
@@ -21,7 +21,7 @@ header {
 }
 header h1 {
     font-size: 2rem;
-    color: #0d47a1;
+    color: #d5dbe6;
 }
 
 /* Filters */
@@ -33,7 +33,7 @@ header h1 {
     margin: 5px;
     padding: 8px 12px;
     border: none;
-    background-color: #1976d2;
+    background-color: #081420;
     color: white;
     cursor: pointer;
     border-radius: 5px;
@@ -41,7 +41,7 @@ header h1 {
 }
 .filters button.active,
 .filters button:hover {
-    background-color: #0d47a1;
+    background-color: #0e2649;
 }
 
 /* Search */
@@ -66,7 +66,7 @@ header h1 {
 
 /* Event cards */
 .event-card {
-    background-color: white;
+    background-color: rgb(53, 46, 46);
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     overflow: hidden;
@@ -91,7 +91,7 @@ header h1 {
 .event-card-content p {
     margin-bottom: 8px;
     font-size: 0.95rem;
-    color: #555;
+    color: #0f0f11;
 }
 
 /* Responsive */

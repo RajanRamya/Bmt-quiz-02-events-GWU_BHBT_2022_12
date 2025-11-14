@@ -19,7 +19,7 @@ const events = [
         type: "Talk",
         date: "2025-11-20T11:00:00",
         description: "A beginner-friendly overview of quantum mechanics and its potential to revolutionize computing.",
-        image: "images/quantum.jpg"
+        image: "images/quantum.JPG"
     },
      {
         title: "Networking Mixer & Welcome Reception",

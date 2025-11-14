@@ -69,14 +69,18 @@ function displayEvents(eventList) {
 
         container.appendChild(card);
     });
-    // Apply small animation
-const newlyAdded = container.lastElementChild;
-newlyAdded.classList.add("animate-card");
+ // Animate all cards on page load
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".event-card");
 
-setTimeout(() => {
-  newlyAdded.classList.add("show");
-}, 50);
-}
+  cards.forEach((card, index) => {
+    // Add animation class with a small delay for each card
+    setTimeout(() => {
+      card.classList.add("animate-card");
+      card.classList.add("show");
+    }, index * 150); // Delay each card by 150ms
+  });
+});
 
 // Initial display
 displayEvents(events);

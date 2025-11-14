@@ -122,4 +122,39 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+/* Default: Light mode */
+body {
+  background: #f8fafc;
+  color: #0f172a;
+  transition: background 0.3s ease, color 0.3s ease;
+}
 
+/* Event card light mode */
+.event-card {
+  background: white;
+  color: #0f172a;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.dark-mode .event-card {
+  background: #1e293b;
+  color: #f8fafc;
+}
+
+.dark-mode button,
+button {
+  background: #1e293b;
+  color: #f8fafc;
+  border: 1px solid #475569;
+}
+
+button {
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}

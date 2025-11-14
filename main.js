@@ -5,28 +5,28 @@ const events = [
         type: "Keynote",
         date: "2025-11-20T09:00:00",
         description: "Join industry visionary Dr. Evelyn Reed as she unveils the next decade of AI innovation.",
-        image: "images/keynote.jpg"
+        image: "https://picsum.photos/seed/ai/400/200"
     },
     {
         title: "Advanced JavaScript Workshop",
         type: "Workshop",
         date: "2025-11-20T10:30:00",
         description: "A 3-hour, hands-on deep-dive into asynchronous JavaScript, Promises, and modern ES6+ features.",
-        image: "images/workshop-js.jpg"
+        image: "https://picsum.photos/seed/javascript/400/200"
     },
     {
         title: "introduction to quantum computing",
         type: "Talk",
         date: "2025-11-20T11:00:00",
         description: "A beginner-friendly overview of quantum mechanics and its potential to revolutionize computing.",
-        image: "images/quantum.JPG"
+        image: "https://picsum.photos/seed/quantum/400/200"
     },
      {
         title: "Networking Mixer & Welcome Reception",
         type: "Talk",
         date: "2025-11-20T11:00:00",
         description: "Connect with fellow attendees, speakers, and sponsors over drinks and appetizers.",
-        image: "images/cybersecurity1.jpg"
+        image: "https://picsum.photos/seed/networking/400/200"
     },
      {
     title: "API Design Best Practices",
@@ -34,7 +34,7 @@ const events = [
     date: "2025-11-21T15:00:00",
     description:
       "Learn how to design, document, and maintain clean, consistent, and easy-to-use RESTful APIs.",
-    image: "images/cybersecurity2.jpg",
+    image: "https://picsum.photos/seed/api/400/200",
   },
    {
     title: "Closing Ceremony & Awards",
@@ -42,7 +42,7 @@ const events = [
     date: "2025-11-22T17:30:00",
     description:
       "Join us as we celebrate the best of the conference and announce the hackathon winners.",
-    image: "images/cybersecurity2.jpg",
+    image: "https://picsum.photos/seed/awards/400/200",
   },
 ];
 
